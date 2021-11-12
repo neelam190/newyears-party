@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+
+.home{
+  height: auto;
+  width: 100%;
+  min-width: 800px;
+  /* background: linear-gradient(to bottom right, #9c27b0, #00BCD4); */
+  background-image: url("../imgs/bg.jpg");
+  background-size: cover;
+  /* display: flex; */
+  padding-top: 7em;
+  justify-content: center;
+  /* align-items: center; */
+  color: #fff;
+  text-align: center;
+}
+.fade{
+  position:fixed;
+  background: rgba(0,0,0,.3);
+  height:100%;
+  width:100%;
+  left:0;
+  top:0;
+  z-index:0;
+}
+h1{
+  margin-bottom:2rem;
+  color:#fff;
+  text-transform:uppercase;
+  position:relative;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 55px #000, 0 0 75px #000;
+  letter-spacing:4px;
+}
+
+.countbox{
+  padding: 5rem 7rem;
+  background:rgb(255 255 255 / 42%);
+  border-radius:20px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,.1);
+  display:inline-block;
+  position:relative;
+  margin-bottom: 2em;
+}
+.countbox > p {
+  background: rgba(0,0,0,.4);
+  color: #fff;
+  padding: 2em 4em;
+  border-radius: 20px 0;
+  margin: 0 1.7rem;
+  width: -1rem;
+  font-size: 2.5rem;
+  text-align: center;
+  display: inline-flex;
+  position: relative;
+}
+.countbox > span{
+  position:absolute;
+  top:calc(100% + .5rem);
+  left:.2rem;
+  font-size:.8rem;
+  text-transform:uppercase;
+}
+
+.add {
+  padding: 2em;
+}
+
+/* logout */
+.logout {
+  padding: 2em;
+  margin-top: -7em;
+}
+
+.logout__button {
+  min-width: 300px;
+  padding: 17px 30px;
+  margin-top: 20px;
+  background: black;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-family: "Inter";
+  border-radius: 3px;
+}
+
+.user__name {
+  color: #8d0ada;
+}
+
+table {
+  display: block;
+  padding: 2em;
+  font-size: 2em;
+}
